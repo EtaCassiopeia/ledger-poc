@@ -1,0 +1,18 @@
+{
+  "type": "record",
+  "name": "Action",
+  "namespace": "com.ledger.avro",
+  "doc": "Represents an action to be performed as a result of processing",
+  "fields": [
+    {
+      "name": "actionType",
+      "type": "string",
+      "doc": "The type of action to perform (e.g., DB_WRITE, AUDIT_LOG)"
+    },
+    {
+      "name": "data",
+      "type": "string",
+      "doc": "The data associated with the action"
+    }
+  ]
+}

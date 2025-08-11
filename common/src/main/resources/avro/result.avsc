@@ -1,0 +1,16 @@
+{
+  "type": "record",
+  "name": "Result",
+  "namespace": "com.ledger.avro",
+  "doc": "Represents the result of processing a message",
+  "fields": [
+    {
+      "name": "actions",
+      "type": {
+        "type": "array",
+        "items": "com.ledger.avro.Action"
+      },
+      "doc": "List of actions to be performed"
+    }
+  ]
+}

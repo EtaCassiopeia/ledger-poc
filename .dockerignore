@@ -1,0 +1,17 @@
+# Ignore local dev caches and build outputs
+.target/
+project/target/
+target/
+.ivy2/
+.coursier/
+.metals/
+.bloop/
+.idea/
+.scala-build/
+
+# SBT logs
+logs/
+
+# Mac
+.DS_Store
+
